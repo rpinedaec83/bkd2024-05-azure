@@ -69,3 +69,5 @@ jobs:
           slot-name: 'Production'
           package: .
           
+      - name: Correr el deploy
+        run: npm run start
