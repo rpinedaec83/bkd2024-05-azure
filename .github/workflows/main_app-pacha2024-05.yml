@@ -68,6 +68,3 @@ jobs:
           app-name: 'app-pacha2024-05'
           slot-name: 'Production'
           package: .
-          
-      - name: Correr el deploy
-        run: npm run start

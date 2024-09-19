@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'PachaQTec 2024-05' });
+  res.render('index', { title: 'PachaQTec 2024-05 en Azure' });
 });
 
 module.exports = router;
